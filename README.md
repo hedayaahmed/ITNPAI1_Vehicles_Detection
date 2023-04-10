@@ -3,12 +3,15 @@
 # 1. **Problem definition** 
 
 This project presents deep learning based solution for vehicles detection including cars, motorcycles, buses, and trucks from wild images at street-level. The dataset is collected from two cities which are Cairo and Stirling.
+
 ---
 # 2. **Dataset creation**
 202 images from Cairo and 200 images from Stirling are collected using **Mapillary API**. The first step was collecting sequence keys for each city and save them in seperate text file. Then, this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Mapillary.ipynb) was used to read these keys and send a request to **Mapillary API** to get response and download these images.
 
 Cairo dataset includes 809 cars, 49 motorcycles, 15 buses, and 57 trucks, while Stirling dataset contains 548 cars, 2 motorcycles, 7 buses, and 19 trucks.
-The dataset was annotated using Computer Vision Annotation Tool "CVAT". Then, it is exported in Yolo format and converted to PASCAL VOC format using this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Yolo%20to%20PASCAL.ipynb). The annotation consists of bounding boxes "xmin, ymin, xmax, ymax", object class, and filter label for the repeated, low quality, or empty images to be removed from the final dataset.
+
+The dataset was annotated using Computer Vision Annotation Tool "CVAT". Then, it is exported in Yolo format and converted to PASCAL VOC format using this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Yolo%20to%20PASCAL.ipynb) because the most recent version of CVAT is more accurate in bounding boxes extraction in Yolo and CVAT formats than in PASCAL VOC. The annotation consists of bounding boxes "xmin, ymin, xmax, ymax", object class, and filter label for the repeated, low quality, or empty images to be removed from the final dataset.![image](https://user-images.githubusercontent.com/59966100/230819870-f0b3173b-2dcc-4a1a-af03-26832c97939a.png)
+
 ---
 # 4. **Dataloader**
 After some image preprocessing such as converting images from BGR to RGB, normalization, and resizing, the dataset splitted to training, validation, and testing. After that, data augmentation techniques were applied to increase number of images. Finally, the dataset was loaded into tensor for the next model training step.
@@ -27,6 +30,7 @@ These scripts are:
 # 5. **Proposed solution** 
 
 The proposed solution is Faster R-CNN with ResNet50 as a backbone. In this step of the pipeline, the model was trained on the training set for specified number of epochs using different hyperparamters, and it was evaluated on the validation set. During this, the loss, Mean average precision, and Mean average recall were calculated. Finally, two postprocessing step were implemented, which are appling Non Maximum Suppression "NMS", and converting images tensor to PIL images.
+
 ---
 # 6. **Experimental tests and evaluations** 
 
