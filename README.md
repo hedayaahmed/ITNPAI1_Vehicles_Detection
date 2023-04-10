@@ -8,7 +8,6 @@ This project presents deep learning based solution for vehicles detection includ
 202 images from Cairo and 200 images from Stirling are collected using **Mapillary API**. The first step was collecting sequence keys for each city and save them in seperate text file. Then, this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Mapillary.ipynb) was used to read these keys and send a request to **Mapillary API** to get response and download these images.
 
 Cairo dataset includes 809 cars, 49 motorcycles, 15 buses, and 57 trucks, while Stirling dataset contains 548 cars, 2 motorcycles, 7 buses, and 19 trucks.
-
 The dataset was annotated using Computer Vision Annotation Tool "CVAT". Then, it is exported in Yolo format and converted to PASCAL VOC format using this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Yolo%20to%20PASCAL.ipynb). The annotation consists of bounding boxes "xmin, ymin, xmax, ymax", object class, and filter label for the repeated, low quality, or empty images to be removed from the final dataset.
 ---
 # 4. **Dataloader**
