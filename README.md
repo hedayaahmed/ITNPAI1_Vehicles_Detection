@@ -10,7 +10,7 @@ This project presents deep learning based solution for vehicles detection includ
 
 Cairo dataset includes 809 cars, 49 motorcycles, 15 buses, and 57 trucks, while Stirling dataset contains 548 cars, 2 motorcycles, 7 buses, and 19 trucks.
 
-The dataset was annotated using Computer Vision Annotation Tool "CVAT". Then, it is exported in Yolo format and converted to PASCAL VOC format using this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Yolo%20to%20PASCAL.ipynb) because the most recent version of CVAT is more accurate in bounding boxes extraction in Yolo and CVAT formats than in PASCAL VOC. The annotation consists of bounding boxes "xmin, ymin, xmax, ymax", object class, and filter label for the repeated, low quality, or empty images to be removed from the final dataset.![image](https://user-images.githubusercontent.com/59966100/230819870-f0b3173b-2dcc-4a1a-af03-26832c97939a.png)
+The dataset was annotated using Computer Vision Annotation Tool "CVAT". Then, it is exported in Yolo format and converted to PASCAL VOC format using this [notebook](https://github.com/hedayaahmed/ITNPAI1_Vehicles_Detection/blob/main/Yolo%20to%20PASCAL.ipynb) because the most recent version of CVAT is more accurate in bounding boxes extraction in Yolo and CVAT formats than in PASCAL VOC. The annotation consists of bounding boxes "xmin, ymin, xmax, ymax", object class, and filter label for the repeated, low quality, or empty images to be removed from the final dataset.
 
 ---
 # 4. **Dataloader**
