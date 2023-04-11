@@ -1,0 +1,25 @@
+<annotation>
+  <folder>Stirling_0796.jpg</folder>
+  <filename>Stirling_0796.jpg</filename>
+  <source>
+    <database>SLD database</database>
+  </source>
+  <size>
+    <width>2048</width>
+    <height>1536</height>
+    <depth>3</depth>
+  </size>
+  <detections>0</detections>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>245</xmin>
+      <ymin>745</ymin>
+      <xmax>461</xmax>
+      <ymax>856</ymax>
+    </bndbox>
+  </object>
+</annotation>
