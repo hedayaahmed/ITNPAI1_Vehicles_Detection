@@ -1,0 +1,37 @@
+<annotation>
+  <folder>Egypt_01241_1482868328720362.jpg</folder>
+  <filename>Egypt_01241_1482868328720362.jpg</filename>
+  <source>
+    <database>SLD database</database>
+  </source>
+  <size>
+    <width>2048</width>
+    <height>1152</height>
+    <depth>3</depth>
+  </size>
+  <detections>0</detections>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>282</xmin>
+      <ymin>613</ymin>
+      <xmax>534</xmax>
+      <ymax>744</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>943</xmin>
+      <ymin>604</ymin>
+      <xmax>1190</xmax>
+      <ymax>736</ymax>
+    </bndbox>
+  </object>
+</annotation>
