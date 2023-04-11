@@ -1,0 +1,37 @@
+<annotation>
+  <folder>Stirling_1417.jpg</folder>
+  <filename>Stirling_1417.jpg</filename>
+  <source>
+    <database>SLD database</database>
+  </source>
+  <size>
+    <width>2048</width>
+    <height>1536</height>
+    <depth>3</depth>
+  </size>
+  <detections>0</detections>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>943</xmin>
+      <ymin>900</ymin>
+      <xmax>1234</xmax>
+      <ymax>1139</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>bus</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1212</xmin>
+      <ymin>872</ymin>
+      <xmax>1521</xmax>
+      <ymax>982</ymax>
+    </bndbox>
+  </object>
+</annotation>
