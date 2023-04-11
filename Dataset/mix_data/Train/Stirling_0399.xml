@@ -1,0 +1,37 @@
+<annotation>
+  <folder>Stirling_0399.jpg</folder>
+  <filename>Stirling_0399.jpg</filename>
+  <source>
+    <database>SLD database</database>
+  </source>
+  <size>
+    <width>2047</width>
+    <height>1072</height>
+    <depth>3</depth>
+  </size>
+  <detections>0</detections>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1258</xmin>
+      <ymin>746</ymin>
+      <xmax>1295</xmax>
+      <ymax>767</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>car</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1557</xmin>
+      <ymin>748</ymin>
+      <xmax>1647</xmax>
+      <ymax>795</ymax>
+    </bndbox>
+  </object>
+</annotation>
